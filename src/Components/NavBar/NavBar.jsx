@@ -4,6 +4,7 @@ import Contact from "../Contact/Contact";
 import About from "../About/About";
 import Achievements from "../Achievements/Achievements";
 import Result from "../Result/Result";
+import Why from "../Why/Why";
 import logo from "./Images/logo.jpeg";
 import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -48,6 +49,11 @@ export class NavBar extends Component {
                       </Link>
                     </li>
                     <li className="nav-item">
+                      <Link to="/Why" className="nav-link">
+                        Why JMD Saksham Calsses??
+                      </Link>
+                    </li>
+                    <li className="nav-item">
                       <Link to="/result" className="nav-link">
                         Results & Downloads
                       </Link>
@@ -84,6 +90,9 @@ export class NavBar extends Component {
             </Route>
             <Route path="/result">
               <Result />
+            </Route>
+            <Route path="/Why">
+              <Why />
             </Route>
             <Route path="/">
               <Home />
