@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Result.css";
 import sample from "./files/sample.pdf";
+import Topper from "./Topper.json";
 export class Result extends Component {
   render() {
     return (
@@ -31,11 +32,58 @@ export class Result extends Component {
               </ul>
             </div>
           </div>
+          <div className="Toppers">
+            <h1><u> Past Toppers</u></h1><div className="container parent">
+            {Topper.map((post) => {
+            return (
+              <div className="card c">
+                <img
+                  className="card-img-top"
+                  src={post.path}
+                  alt="Janmesh Kumar"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    <name>{post.name.toUpperCase()}</name>
+                    <br />
+                    <rank>{post.rank}</rank>
+                    <br />
+                    <class>{post.class}</class>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+          </div>
+          </div>
         </div>
         <div className="downloads my-5">
           <h1>Some downloadable files</h1>
-          <ul>
-            <l1><h3><a title="Saksham 2022 Form" className="list-element" href={sample} download>Saksham form 2022</a></h3></l1>
+          <ul className="my-4">
+            <l1>
+              <h3>
+                <a
+                  title="Saksham 2022 Form"
+                  className="list-element"
+                  href={sample}
+                  download
+                >
+                  Saksham 2022 form
+                </a>
+              </h3>
+            </l1>
+            <l1>
+              <h3>
+                <a
+                  title="Saksham 2022 Brochure"
+                  className="list-element"
+                  href={sample}
+                  download
+                >
+                  Saksham 2022 Brochure
+                </a>
+              </h3>
+            </l1>
           </ul>
         </div>
       </>

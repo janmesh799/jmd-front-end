@@ -10,6 +10,7 @@
 
 # production
 /build
+/JMD website-20211126T151510Z-001
 
 # misc
 .DS_Store

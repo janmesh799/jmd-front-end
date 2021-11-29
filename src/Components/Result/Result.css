@@ -7,6 +7,28 @@
   display: flex;
   margin-right: 100px;
 }
+.c {
+  width: 18rem;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  /* background-color: #31363b; */
+  border-radius: 5%;
+  border: black solid 2px;
+}
+.card-img-top {
+  border-radius: 5%;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 1rem;
+}
+.card-text {
+  margin-top: 10px !important;
+  border-radius: 5%;
+  background-color: #3b3f42;
+  color: white;
+}
 .list-element {
   color: black;
   text-decoration: black underline;
@@ -20,8 +42,7 @@
   background-color: rgb(230, 87, 87);
 }
 
-@media (min-width: 100px) and (max-width:480px) {
- 
+@media (min-width: 100px) and (max-width: 480px) {
   .Classwise-breakthrough {
     display: block;
   }
@@ -29,8 +50,7 @@
     margin-left: 0px;
     flex-direction: row;
   }
-  .list{
+  .list {
     margin-left: 3.75rem;
   }
-  
 }

@@ -5,6 +5,9 @@
   margin-left: 2em;
   border-radius: 15px;
 }
+nav{
+  margin-bottom: 1em;
+}
 
 @media (min-width: 100px) and (max-width: 480px) {
   .logo {

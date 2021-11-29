@@ -8,7 +8,7 @@ export class Contact extends Component {
 
         <div className="call-parent">
           <div className="call">
-            <span className="call"> Call Us &nbsp;</span>
+            <span className="call"> Call Us!!! &nbsp;</span>
             <img
               src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-call-contact-flatart-icons-lineal-color-flatarticons-1.png"
               alt="call icon "
@@ -17,13 +17,13 @@ export class Contact extends Component {
             &nbsp;
           </div>
           <div className="call">
-            <a href="tel:7983593180" className="call ">
-              +91-7983593180
+            <a href="tel:9756399884" className="call ">
+              +91-9756399884
             </a>
           </div>
           <div className="call">
-            <a href="tel:7983593180" className="call">
-              +91-7983593180
+            <a href="tel:9756399888" className="call">
+              +91-9756399888
             </a>
           </div>
         </div>
@@ -31,26 +31,28 @@ export class Contact extends Component {
         <div className="whattsapp-parent">
           <div className="call">
             <a
-              href="https://wa.me/+917983593180?text=Welcome to JMD Saksham Classes 😀😀"
+              href="https://wa.me/+919756399884
+?text=Welcome to JMD Saksham Classes 😀😀"
               target="_blank"
               rel="noreferrer"
               className="call"
             >
-              +91-7983593180
+              +91-9756399884
+
             </a>
           </div>
           <div className="call">
             <a
-              href="https://wa.me/+917983593180?text=Welcome to JMD Saksham Classes 😀😀"
+              href="https://wa.me/+919756399888?text=Welcome to JMD Saksham Classes 😀😀"
               target="_blank"
               rel="noreferrer"
               className="call"
             >
-              +91-7983593180
+              +91-9756399888
             </a>
           </div>
           <div className="call">
-            <span className="call"> &nbsp;Whatsapp Us &nbsp;</span>
+            <span className="call"> &nbsp;Whatsapp Us!!! &nbsp;</span>
             <img
               src="https://img.icons8.com/office/480/000000/whatsapp--v1.png"
               alt="Whattsapp no."

@@ -1,77 +1,35 @@
 import React, { Component } from "react";
 import "./Achievements.css";
-import img1 from "./images/img1.jpg";
+import data1 from "./Data1.json";
 export class Achievements extends Component {
   render() {
     return (
       <>
-        <h1 className="my-5 typewriter">Recent Year Achievements</h1>
+        <h1 className="my-5">Recent Year Achievements</h1>
         <div className="container parent">
-          <div className="card c">
-            <img className="card-img-top" src={img1} alt="Janmesh Kumar" />
-            <div className="card-body">
-              <p className="card-text">
-                <name>Janmesh Kumar</name>
-                <br />
-                <college>IIITDMJ</college>
-                <br />
-                <year>2020</year>
-              </p>
-              
-            </div>
-          </div>
-          <div className="card c">
-            <img className="card-img-top" src={img1} alt="Janmesh Kumar" />
-            <div className="card-body">
-              <p className="card-text">
-                <name>Janmesh Kumar</name>
-                <br />
-                <college>IIITDMJ</college>
-                <br />
-                <year>2020</year>
-              </p>
-            </div>
-          </div>
-          <div className="card c">
-            <img className="card-img-top" src={img1} alt="Janmesh Kumar" />
-            <div className="card-body">
-              <p className="card-text">
-                <name>Janmesh Kumar</name>
-                <br />
-                <college>IIITDMJ</college>
-                <br />
-                <year>2020</year>
-              </p>
-            </div>
-          </div>
-          <div className="card c">
-            <img className="card-img-top" src={img1} alt="Janmesh Kumar" />
-            <div className="card-body">
-              <p className="card-text">
-                <name>Janmesh Kumar</name>
-                <br />
-                <college>IIITDMJ</college>
-                <br />
-                <year>2020</year>
-              </p>
-            </div>
-          </div>
-          <div className="card c">
-            <img className="card-img-top" src={img1} alt="Janmesh Kumar" />
-            <div className="card-body">
-              <p className="card-text">
-                <name>Janmesh Kumar</name>
-                <br />
-                <college>IIITDMJ</college>
-                <br />
-                <year>2020</year>
-              </p>
-            </div>
-          </div>
+          {data1.map((post) => {
+            return (
+              <div className="card c">
+                <img
+                  className="card-img-top"
+                  src={post.path}
+                  alt="Janmesh Kumar"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    <name>{post.name.toUpperCase()}</name>
+                    <br />
+                    <college>{post.achieve}</college>
+                    <br />
+                    <year>{post.year}</year>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
         </div>
-        
-        <h1 className="my-5 typewriter">Past Year Achievements</h1>
-        
+
+        <h1 className="my-5">Past Year Achievements</h1>
       </>
     );
   }

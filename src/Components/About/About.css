@@ -9,6 +9,14 @@
   height: 20em;
   border-radius: 5rem;
   margin-right: 2rem;
+  margin-bottom: 2em;
+}
+.label {
+  font-size: 1.5em;
+}
+.desig {
+font: 1.25em;
+font-weight: 700;
 }
 .Director-img:hover {
   border: black 2px solid;
