@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./Achievements.css";
 import data1 from "./Data1.json";
+import data2 from "./Data2.json";
+import data3 from "./Data3.json";
 export class Achievements extends Component {
   render() {
     return (
       <>
-        <h1 className="my-5">Recent Year Achievements</h1>
+        <h1 className="my-5"><u>Recent Year Achievements</u></h1>
         <div className="container parent">
           {data1.map((post) => {
             return (
@@ -13,15 +15,15 @@ export class Achievements extends Component {
                 <img
                   className="card-img-top"
                   src={post.path}
-                  alt="Janmesh Kumar"
+                  alt=" koi toh tha"
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    <name>{post.name.toUpperCase()}</name>
+                    <span>{post.name.toUpperCase()}</span>
                     <br />
-                    <college>{post.achieve}</college>
+                    <span>{post.achieve}</span>
                     <br />
-                    <year>{post.year}</year>
+                    <span>{post.year}</span>
                   </p>
                 </div>
               </div>
@@ -29,7 +31,52 @@ export class Achievements extends Component {
           })}
         </div>
 
-        <h1 className="my-5">Past Year Achievements</h1>
+        <h1 className="my-5"><u>Past Year Achievements</u></h1>
+        <div className="container parent">
+          {data2.map((post) => {
+            return (
+              <div className="card c">
+                <img
+                  className="card-img-top"
+                  src={post.path}
+                  alt=" koi toh tha"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    <span>{post.name.toUpperCase()}</span>
+                    <br />
+                    <span>{post.achieve}</span>
+                    <br />
+                    <span>{post.year}</span>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <h1 className="my-5"><u>Notable Alumni</u></h1>
+        <div className="container parent">
+          {data3.map((post) => {
+            return (
+              <div className="card c hide">
+                <img
+                  className="card-img-top"
+                  src={post.path}
+                  alt=" koi toh tha"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    <span>{post.name.toUpperCase()}</span>
+                    <br />
+                    <span>{post.degree}</span>
+                    <br />
+                    <span>{post.college}</span>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </>
     );
   }

@@ -1,8 +1,6 @@
 .Director-parent {
   display: flex;
-}
-.Director-child {
-  flex-direction: column;
+  flex-direction: row;
 }
 .Director-img {
   width: auto;
@@ -15,8 +13,8 @@
   font-size: 1.5em;
 }
 .desig {
-font: 1.25em;
-font-weight: 700;
+  font: 1.25em;
+  font-weight: 700;
 }
 .Director-img:hover {
   border: black 2px solid;
@@ -31,29 +29,7 @@ font-weight: 700;
   border-radius: 20px;
   margin-top: 3em;
 }
-@media (min-width: 100px) and (max-width: 480px) {
-  .Director-parent {
-    display: block;
-    /* background-color: green; */
-  }
-  .Director-img {
-    width: 20em;
-    height: 20em;
-    margin: auto;
-    margin-top: 2rem;
-  }
-  .Director-child {
-    flex-direction: row;
-  }
-  .component {
-    border: black 1px solid;
-    border-radius: 20px;
-    margin-top: 3em;
-  }
-  .Director-text {
-    font-size: 1em;
-  }
-}
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -75,4 +51,41 @@ font-weight: 700;
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
+  .Director-parent {
+    display: block;
+    /* background-color: green; */
+  }
+  .Director-img {
+    width: 18em;
+    height: 18em;
+ 
+    margin-top: 2rem;
+  }
+  .Director-child {
+    flex-direction: row;
+  }
+  .component {
+    border: black 1px solid;
+    border-radius: 20px;
+    margin-top: 3em;
+  }
+  .Director-text {
+    font-size: 1em;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
 }

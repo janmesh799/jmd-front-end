@@ -7,6 +7,9 @@
 .heart{
     color: red;
 }
+.yellow{
+    color: yellow;
+}
 @media (min-width:100px) and (max-width:480px) {
     .main{
         font-size: 1em;

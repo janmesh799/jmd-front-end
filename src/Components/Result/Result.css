@@ -5,6 +5,7 @@
   list-style: none;
   font-size: 2rem;
   display: flex;
+  flex-wrap: wrap;
   margin-right: 100px;
 }
 .c {
@@ -35,14 +36,19 @@
   flex-direction: column;
   margin-left: 4rem;
 }
-.list {
-  margin-left: 11rem;
+.no_bullets{
+  list-style-type: none;
+}
+.list{
+  display: flex;
+  justify-content: center;
 }
 .badge {
   background-color: rgb(230, 87, 87);
 }
 
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
   .Classwise-breakthrough {
     display: block;
   }
@@ -53,4 +59,19 @@
   .list {
     margin-left: 3.75rem;
   }
+  *{
+    font-size: 01em;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
 }

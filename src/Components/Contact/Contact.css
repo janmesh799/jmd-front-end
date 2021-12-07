@@ -1,10 +1,15 @@
 .call {
   font-size: 1.5em;
-  margin-left: 2rem;
   margin-top: 0.5rem !important;
   color: black !important;
   display: flex;
-  flex-direction: row;
+
+}
+.head-ad{
+  /* display: block !important; */
+
+  font-size: 1.75em;
+  margin: 2em 0px 2em 0px !important;
 }
 .call-parent {
   display: flex;
@@ -40,17 +45,22 @@
   flex-direction: column;
   font-size: 3em;
   margin-top: 1.5em;
-  height: 450px;
+  
   width: 600px;
   margin-left: 2em;
   /* border: black 2px solid; */
   text-align: center;
 }
-.head-ad {
-  margin-top: 5em;
+
+.call-icon:hover,
+.wa-icon:hover {
+  animation: shake 0.5s !important;
+  animation-iteration-count: infinite !important;
 }
 
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
+
   .call-parent {
     display: block;
     width: auto;
@@ -58,6 +68,8 @@
   }
   .call {
     font-size: 1.3em;
+    display: flex;
+    justify-content: center;
   }
   .whattsapp-parent {
     display: flex;
@@ -69,9 +81,8 @@
   .wa-icon {
     width: 2em;
     height: 2em;
-    
   }
-  
+
   .visit {
     display: flex;
     flex-direction: column-reverse;
@@ -91,10 +102,52 @@
     border-radius: 2em;
   }
 }
-.call-icon:hover,.wa-icon:hover{
-  animation: shake 0.5s !important;
-  animation-iteration-count: infinite !important;
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+  .call-parent {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .whattsapp-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    /* margin-left: 0px; */
+  }
+  .call {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center !important;
+  }
+  .visit {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .visit-text {
+    font-size: 2em;
+    width: 100%;
+    margin-bottom: 2em;
+    margin-left: 0px;
+    border: black 2px solid;
+    border-radius: 2em;
+  }.map {
+    width: 100%;
+    height: 30em;
+    margin-top: 0em;
+    margin-bottom: 20em;
+  }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
+}
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);

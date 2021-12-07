@@ -1,0 +1,144 @@
+.w-head {
+  background-color: #212529;
+  color: white;
+
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+img{
+  width: 300px;
+  height: auto;
+}
+.orientation,
+.doubt,
+.open-session,
+.activities,
+.Administration,
+.automation,
+.success,
+.topper,
+.reward {
+  background-color: rgb(41, 43, 48);
+  color: white;
+  /* background-color: white;
+  color: black; */
+  
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.or-content,
+.act,
+.admin,
+.auto,
+.rew-content {
+  display: flex;
+  flex-direction: row;
+}
+.or-element,
+.act-elem,
+.admin-elem,
+.auto-elem,
+.rew-elem {
+  margin: 2em 2em 2em 2em;
+}
+.or-text,
+.rew-text {
+  margin-top: 1em;
+}
+.or-img {
+  border-radius: 1em;
+}
+.or-head,
+.rew-head {
+  margin-top: 1em;
+}
+.doubt-gall,
+.open-gall,
+.topper-gall,
+.success-gall {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.doubt-img,
+.open-img,
+.act-img,
+.admin-img,
+.auto-img,
+.topper-img,
+.rew-img {
+  /* margin: 2em; */
+  border-radius: 1em;
+}
+.success-img,
+.topper-img,
+.open-img,
+.doubt-img {
+  margin: 2em;
+  border-radius: 1em;
+}
+@media (min-width: 1px) and (max-width: 319px) {
+  /* for extra small screens */
+  .act-img,
+  .admin-img,
+  .auto-img,
+  .success-img,
+  .rew-img {
+    /* margin: 2em; */
+    border-radius: 1em;
+  }
+  .or-content,
+  .act,
+  .admin,
+  .auto,
+  .rew-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
+
+  .or-content,
+  .act,
+  .admin,
+  .auto,
+  .rew-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .doubt-img,
+  .open-img,
+  .act-img,
+  .admin-img,
+  .auto-img,
+  .success-img,
+  .topper-img,
+  .rew-img {
+    /* margin: 2em; */
+    border-radius: 1em;
+  }
+  .orientation,
+.doubt,
+.open-session,
+.activities,
+.Administration,
+.automation,
+.success,
+.topper,
+.reward {
+  border-radius: 1em;
+}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
+}

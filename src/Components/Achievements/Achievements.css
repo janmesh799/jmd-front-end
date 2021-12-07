@@ -5,6 +5,8 @@
   background-color: #31363b;
   border-radius: 5%;
 }
+
+
 .parent {
   display: flex;
   flex-wrap: wrap;
@@ -22,26 +24,19 @@
   background-color: #3b3f42;
   color: white;
 }
-.typewriter{
-  width: 15em;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(43, 28, 2); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
 }
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(43, 28, 2); }
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
 }

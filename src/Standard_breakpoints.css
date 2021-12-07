@@ -1,0 +1,17 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* for mobile devices */
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* for ipad , tablets */
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* for small screens, laptops */
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    /* for desktops, large screens */
+  }
+  @media (min-width: 1201px) {
+    /* for extra large screens */
+  }
+  

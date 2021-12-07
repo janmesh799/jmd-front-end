@@ -1,27 +1,151 @@
 .logo {
   width: 5em;
   height: 5em;
-  margin-right: 2em;
-  margin-left: 2em;
-  border-radius: 15px;
+  border-radius: 6em;
+  justify-content: center;
 }
-nav{
+.n-0{
+ background-color: rgb(82, 116, 150) ; 
+ font-size: 1.5em;
+ /* height: 2em; */
+}
+.contact-img{
+  width: 3em;
+  height: 3em;
+}
+.contact-content{
+  margin-top: 2.5em;
+}
+.contact-head{
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.contact-nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2em;
+}
+.contact-detail{
+  color: black !important;
+  text-decoration: none;
+  font: 1.5em;
+}
+.contact-elem{
+  display: flex;
+  flex-direction: row;
+}
+.nav0{
+  display: flex;
+  flex-wrap: wrap;
+}
+.msg{
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: #212529;
+}
+.msg-icon{
+  width: 2.5em;
+  height: auto;
+}
+nav {
   margin-bottom: 1em;
 }
+.nav-link{
+  color: rgb(93, 93, 240) !important;
+  font-weight: 900 !important;
+}
+.nav-link:hover{
+  color: blue !important;
+}
+.mobile{
+  background-color: whitesmoke;
+}
+.fixedElement {
+  background-color: #c0c0c0;
+  position:fixed;
+  top: 97%;
+  width:100%;
+  /* z-index:100; */
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* for mobile devices */
 
-@media (min-width: 100px) and (max-width: 480px) {
+  .navbar {
+    display: flex !important;
+    flex-direction: column;
+  }
+.contact-nav{
+  display: none;
+}
+.nav0{
+  display: flex;
+  justify-content: center;
+}
+.n-0{
+  font-size: 1.2em;
+}
   .logo {
-    margin-left: 120%;
-    width: 5em;
+    justify-content: center;
+    width: 10rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
     height: auto;
+    border: rgb(189, 187, 187) solid 2px;
   }
 }
-@media (min-width: 480px) and (max-width: 720px) {
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* for ipad , tablets */
+  .navbar {
+    display: flex !important;
+    flex-direction: column;
+  }
+
   .logo {
-    margin-left: 100%;
+    justify-content: center;
     width: 10rem;
     height: auto;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* for small screens, laptops */
+  .navbar {
+    display: flex !important;
+    flex-direction: column;
+  }
 
-
+  .logo {
+    justify-content: center;
+    width: 10rem;
+    height: auto;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* for desktops, large screens */
+  .logo {
+    justify-content: center;
+    width: 10rem;
+    margin-left: 1.5em;
+    height: auto;
+  }
+}
+@media (min-width: 1201px) {
+  /* for extra large screens */
+  .logo {
+    justify-content: center;
+    width: 10rem !important;
+    margin-left: 2em;
+    height: auto;
+  }
+  .nav-link {
+    margin: 0px 1em 0px 1em;
+  }
+}
+@media (min-width: 991px) {
+  /* for extra large screens */
+  .mobile{
+    display: none;
+  }
+}

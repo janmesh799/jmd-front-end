@@ -31,14 +31,12 @@ export class Contact extends Component {
         <div className="whattsapp-parent">
           <div className="call">
             <a
-              href="https://wa.me/+919756399884
-?text=Welcome to JMD Saksham Classes 😀😀"
+              href="https://wa.me/+919756399884?text=Welcome to JMD Saksham Classes 😀😀"
               target="_blank"
               rel="noreferrer"
               className="call"
             >
               +91-9756399884
-
             </a>
           </div>
           <div className="call">
@@ -61,10 +59,13 @@ export class Contact extends Component {
           </div>
         </div>
         {/* ------------------------------------------------- */}
-        <h3 className=" head-ad">
+
+       
+        <span className="head-ad">
           And if you are really very excited, Then visit Us!!!
-        </h3>
+          </span>
         <h4>On the given adderess &#8595;</h4>
+       
         <div className="visit">
           <iframe
             title="JMD map"
