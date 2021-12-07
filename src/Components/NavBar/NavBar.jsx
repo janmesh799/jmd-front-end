@@ -4,11 +4,14 @@ import Contact from "../Contact/Contact";
 import About from "../About/About";
 import Achievements from "../Achievements/Achievements";
 import Result from "../Result/Result";
-import Why from "../Why/Why";
+import Courses from "../Courses/Courses";
 import logo from "./Images/logo.png";
 import Developer from "../Developer/Developer";
 import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+
+
 
 export class NavBar extends Component {
   render() {
@@ -34,9 +37,9 @@ export class NavBar extends Component {
                     <p className="contact-detail">
                       <a target="_blank" rel="noreferrer"
                         className="contact-detail"
-                        href="mailto: jmdsakshamacademy@gmail.com"
+                        href="mailto: jmdsakshamclasses@gmail.com"
                       >
-                        jmdsakshamacademy@gmail.com
+                        jmdsakshamaclasses@gmail.com
                       </a>
                     </p>
                   </div>
@@ -101,8 +104,8 @@ export class NavBar extends Component {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
-                  <li className="nav-item" key="home">
-                    <Link to="/home" className="nav-link">
+                  <li className="nav-item " key="home" >
+                    <Link to="/home" className="nav-link" >
                       HOME
                     </Link>
                   </li>
@@ -111,8 +114,8 @@ export class NavBar extends Component {
                       ACHIEVEMENTS
                     </Link>
                   </li>
-                  <li className="nav-item" key="why">
-                    <Link to="/Why" className="nav-link">
+                  <li className="nav-item" key="Courses">
+                    <Link to="/Courses" className="nav-link">
                       COURSES
                     </Link>
                   </li>
@@ -177,8 +180,8 @@ export class NavBar extends Component {
           <Route path="/result">
             <Result />
           </Route>
-          <Route path="/Why">
-            <Why />
+          <Route path="/Courses">
+            <Courses />
           </Route>
           <Route path="/">
             <Home />
