@@ -1,6 +1,7 @@
 This is the README file for website jmdsaksham.in ; which is a website for a coacing institute situtated in Aligarh. This Website provides Basic information about the coaching institute. 
 
 This website was hosted using firebase. 
+Firebase hosted link: https://jmd-saksham.web.app/
 Hosted link: https://jmdsaksham.in
 
 some snapshots are: 
@@ -15,6 +16,5 @@ some snapshots are:
 All the suggestions are welcomed!!!
 if you want to work on any part of this project. then follow some really simple steps:
 -> just clone the repository
--> run 
-->  npm i
-->  npm start
+$ echo npm i
+$ echo npm start
