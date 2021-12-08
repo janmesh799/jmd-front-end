@@ -1,0 +1,17 @@
+.main {
+  background-color: black;
+  font-size: 2em;
+  color: whitesmoke;
+  margin: 2em 0em 0.5em 0em;
+}
+.heart {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+@media (min-width: 100px) and (max-width: 480px) {
+  .main {
+    font-size: 2em;
+  }
+}

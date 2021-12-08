@@ -1,6 +1,6 @@
 .logo {
-  width: 5em;
-  height: 5em;
+  width: 8em;
+  height: 8em;
   border-radius: 6em;
   justify-content: center;
 }
@@ -15,12 +15,13 @@
   height: 3em;
 }
 .contact-content{
-  margin-top: 2.5em;
+  margin-top: 3.5em;
 }
 .contact-head{
   font-weight: 500;
   text-align: left;
   margin-bottom: 0px;
+  font-size: 1.5em;
 }
 .contact-nav{
   display: flex;
@@ -30,7 +31,7 @@
 .contact-detail{
   color: black !important;
   text-decoration: none;
-  font: 1.5em;
+  font-size: 1.25em;
 }
 .contact-elem{
   display: flex;
@@ -39,43 +40,32 @@
 .nav0{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.msg{
-  display: flex;
-  flex-direction: row;
-  font-size: 1em;
-  color: #212529;
-}
-.msg-icon{
-  width: 2.5em;
-  height: auto;
-}
+
 nav {
   margin-bottom: 1em;
 }
 .nav-link{
   color: rgb(93, 93, 240) !important;
   font-weight: 900 !important;
+  font-size: 2em;
+  margin-left: 1em;
 }
 .nav-link:hover{
   color: blue !important;
 }
-.mobile{
-  background-color: whitesmoke;
-}
-.fixedElement {
-  background-color: #c0c0c0;
-  position:fixed;
-  top: 97%;
-  width:100%;
-  /* z-index:100; */
-}
+
+
 @media (min-width: 320px) and (max-width: 480px) {
   /* for mobile devices */
 
   .navbar {
     display: flex !important;
     flex-direction: column;
+    border: black solid 0.2px;
+    border-radius: 2px !important;
   }
 .contact-nav{
   display: none;
@@ -89,9 +79,9 @@ nav {
 }
   .logo {
     justify-content: center;
-    width: 10rem;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    width: 15rem;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
     height: auto;
     border: rgb(189, 187, 187) solid 2px;
   }
@@ -136,7 +126,7 @@ nav {
   /* for extra large screens */
   .logo {
     justify-content: center;
-    width: 10rem !important;
+    width: 12rem !important;
     margin-left: 2em;
     height: auto;
   }
@@ -150,3 +140,11 @@ nav {
     display: none;
   }
 }
+
+
+
+
+
+
+
+

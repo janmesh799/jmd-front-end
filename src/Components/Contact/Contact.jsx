@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Contact.css";
+import "./Contact.scss";
 export class Contact extends Component {
   render() {
     return (
@@ -8,17 +8,17 @@ export class Contact extends Component {
 
         <div className="call-parent">
           <div className="call">
-            <span className="call"> Call Us!!! &nbsp;</span>
             <img
               src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-call-contact-flatart-icons-lineal-color-flatarticons-1.png"
               alt="call icon "
               className="call-icon"
             />
+            <span className="call">&nbsp; Call Us!!! &nbsp;</span>
             &nbsp;
           </div>
           <div className="call">
             <a href="tel:9756399884" className="call ">
-              +91-9756399884
+              +91-9756399884 &nbsp;
             </a>
           </div>
           <div className="call">
@@ -36,7 +36,7 @@ export class Contact extends Component {
               rel="noreferrer"
               className="call"
             >
-              +91-9756399884
+              +91-9756399884 &nbsp;
             </a>
           </div>
           <div className="call">
@@ -64,7 +64,7 @@ export class Contact extends Component {
         <span className="head-ad">
           And if you are really very excited, Then visit Us!!!
           </span>
-        <h4>On the given adderess &#8595;</h4>
+        <h2>On the given adderess &#8595;</h2>
        
         <div className="visit">
           <iframe
@@ -72,7 +72,7 @@ export class Contact extends Component {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.320653837083!2d78.08724291505293!3d27.892131682715757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a5a841fdc9d1%3A0xa22e73bc998e44e2!2sJmd%20Saksham%20Classes!5e0!3m2!1sen!2sin!4v1636819429703!5m2!1sen!2sin"
             width="600"
             height="450"
-            allowfullscreen=""
+            allowfullScreen=""
             loading="lazy"
             className="map"
           ></iframe>

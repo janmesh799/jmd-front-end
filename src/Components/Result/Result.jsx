@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Result.css";
+import "./Result.scss";
 import sample from "./files/sample.pdf";
 import Vreg from "./files/Vreg.pdf";
 import VIreg from "./files/VIreg.pdf";
@@ -98,7 +98,7 @@ export class Result extends Component {
             </li>
           </ul>
           <div className="container my-4">
-            <h2>Class wise Registration Forms</h2>
+            <h1>Class wise Registration Forms</h1>
             <div className="list">
               <ul className="Classwise-breakthrough">
                 <a title="Click for class I result " href={Vreg} download>

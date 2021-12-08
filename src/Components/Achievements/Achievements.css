@@ -1,5 +1,6 @@
 .c {
-  width: 18rem;
+  width: 25em !important;
+  height: auto;
   margin: auto;
   margin-top: 1rem;
   background-color: #31363b;
@@ -23,10 +24,14 @@
   border-radius: 5%;
   background-color: #3b3f42;
   color: white;
+  font-size: 1.5em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   /* for mobile devices */
+  .c{
+    width: 20em !important;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   /* for ipad , tablets */

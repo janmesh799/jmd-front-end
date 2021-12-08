@@ -7,21 +7,18 @@ import Result from "../Result/Result";
 import Courses from "../Courses/Courses";
 import logo from "./Images/logo.png";
 import Developer from "../Developer/Developer";
-import "./NavBar.css";
+import "./NavBar.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-
-
 
 export class NavBar extends Component {
   render() {
     return (
       <Router>
         <div>
-          <div className="n-0 my-2">
+          {/* <div className="n-0 my-2">
             <strong> JMD SAKSHAM CLASSES</strong> is the coaching centre in
             Aligarh <u> WHERE DREAMS COME TRUE.</u>
-          </div>
+          </div> */}
           <div>
             <div className="nav0">
               <img src={logo} className="logo" alt="logo" />
@@ -35,7 +32,9 @@ export class NavBar extends Component {
                   <div className=" contact-content">
                     <p className="contact-head">Mail us</p>
                     <p className="contact-detail">
-                      <a target="_blank" rel="noreferrer"
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="contact-detail"
                         href="mailto: jmdsakshamclasses@gmail.com"
                       >
@@ -53,7 +52,9 @@ export class NavBar extends Component {
                   <div className=" contact-content">
                     <p className="contact-head">Call us</p>
                     <p className="contact-detail">
-                      <a target="_blank" rel="noreferrer"
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
                         className="contact-detail"
                         href="tel:+919756399884"
                       >
@@ -72,7 +73,8 @@ export class NavBar extends Component {
                     <p className="contact-head">Visit Us</p>
                     <p className="contact-detail">
                       <a
-                      target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                         className="contact-detail"
                         href="https://www.google.com/maps?ll=27.892132,78.089432&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=11686405336940299490"
                       >
@@ -85,9 +87,7 @@ export class NavBar extends Component {
             </div>
           </div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            
             <div className="container-fluid">
-              
               <button
                 className="navbar-toggler"
                 type="button"
@@ -104,8 +104,8 @@ export class NavBar extends Component {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
-                  <li className="nav-item " key="home" >
-                    <Link to="/home" className="nav-link" >
+                  <li className="nav-item " key="home">
+                    <Link to="/home" className="nav-link">
                       HOME
                     </Link>
                   </li>
@@ -139,29 +139,6 @@ export class NavBar extends Component {
               </div>
             </div>
           </nav>
-
-          <div
-            className="alert alert-warning 
-                alert-dismissible 
-                fade show mobile"
-            role="alert"
-          >
-            <div className="msg">
-              For more options click on &nbsp;
-              <img
-                src="https://imgur.com/JQPJcBN.jpg"
-                alt="icon"
-                className="msg-icon"
-              />
-              &nbsp;icon
-            </div>
-            <button
-              type="button"
-              className="btn-close white"
-              data-bs-dismiss="alert"
-              aria-label="Close"
-            ></button>
-          </div>
         </div>
 
         <Switch>
