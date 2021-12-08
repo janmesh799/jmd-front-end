@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Developer.css';
+import './Developer.scss';
 export class Developer extends Component {
     render() {
         return (

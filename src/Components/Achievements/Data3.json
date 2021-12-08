@@ -16,27 +16,29 @@
     "degree": "B.Tech",
     "college": "IIIT Jabalpur",
     "path": "https://imgur.com/uLj8kYN.jpg"
-  },{
-    "name": "Saurav Sharma",
-    "degree": "B.Sc (HM)",
-    "college": "IHM Lucknow",
-    "path": "https://imgur.com/n69Cllz.jpg"
-  },{
-    "name": "Virat Sharma",
-    "degree": "B. Tech",
-    "college": "IIT Roorkee",
-    "path": "https://imgur.com/qaf8QwX.jpg"
-  }
-  ,{
-    "name": "Saurabh Kumar",
-    "degree": "B. Tech",
-    "college": "IIT Kharagpur",
-    "path": "https://imgur.com/YoXCdrx.jpg"
-  }
-  ,{
+  },
+  {
     "name": "Madhav Kaushik",
     "degree": "MBBS",
     "college": "IIT Kharagpur",
     "path": "https://imgur.com/0UJfqc6.jpg"
+  },
+  {
+    "name": "Saurav Sharma",
+    "degree": "B.Sc (HM)",
+    "college": "IHM Lucknow",
+    "path": "https://imgur.com/n69Cllz.jpg"
+  },
+  {
+    "name": "Virat Sharma",
+    "degree": "B. Tech",
+    "college": "IIT Roorkee",
+    "path": "https://imgur.com/qaf8QwX.jpg"
+  },
+  {
+    "name": "Saurabh Kumar",
+    "degree": "B. Tech",
+    "college": "IIT Kharagpur",
+    "path": "https://imgur.com/YoXCdrx.jpg"
   }
 ]

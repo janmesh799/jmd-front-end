@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./Courses.css";
+import "./Courses.scss";
 export class Courses extends Component {
   render() {
     return (
       <>
         <div>
-          <h2>
+          <h1 my-2 >
             <u>Courses offered by Us</u>
-          </h2><br/>
+          </h1><br/>
         </div>
         <div className="tab container">
           <table>
@@ -123,7 +123,7 @@ export class Courses extends Component {
             </tbody>
           </table>
         </div>
-          <strong>
+          <strong className="tab">
             {" "}
             &emsp;&emsp;&emsp;&#42; In winter, class duration will be reduced by
             10 min & time may change as per the school.{" "}

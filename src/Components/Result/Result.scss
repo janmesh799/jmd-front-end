@@ -6,7 +6,6 @@
   font-size: 2rem;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 100px;
 }
 .c {
   width: 18rem;
@@ -36,10 +35,10 @@
   flex-direction: column;
   margin-left: 4rem;
 }
-.no_bullets{
+.no_bullets {
   list-style-type: none;
 }
-.list{
+.list {
   display: flex;
   justify-content: center;
 }
@@ -50,16 +49,16 @@
 @media (min-width: 320px) and (max-width: 480px) {
   /* for mobile devices */
   .Classwise-breakthrough {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .list-element {
-    margin-left: 0px;
+    margin: 0.5em;
     flex-direction: row;
   }
-  .list {
-    margin-left: 3.75rem;
-  }
-  *{
+  
+  * {
     font-size: 01em;
   }
 }
