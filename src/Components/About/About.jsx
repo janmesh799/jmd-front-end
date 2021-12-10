@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./About.scss";
-import director from "./images/director.jpg";
-import vision from "./images/vision.JPG";
 export class About extends Component {
   render() {
     return (
@@ -44,11 +42,13 @@ export class About extends Component {
         </div>
         {/* About Director */}
         <div className="container component">
-          <h2 className="my-5 hover-underline-animation con-head">Director's Message</h2>
+          <h2 className="my-5 hover-underline-animation con-head">
+            Director's Message
+          </h2>
           <div className="Director-parent">
             <div>
               <img
-                src={director}
+                src="https://imgur.com/cUAVeW8.jpg"
                 alt="Director DK sir"
                 className="Director-child Director-img"
               />
@@ -60,12 +60,12 @@ export class About extends Component {
               </p>
             </div>
             <p className="Director-child my-5 Director-text">
-              We believe that action should speak louder than words. We hope to
+              <br/><br/>We believe that action should speak louder than words. We hope to
               follow this in JMD Saksham Classes and we have suggested in the
               punch line of JMD Saksham Classes in Sanskrit
               <i>
                 {" "}
-                <b>"उद्यमेन हि सिध्यन्ति कार्याणि"</b>
+                <b className="blue">"उद्यमेन हि सिध्यन्ति कार्याणि"</b>
               </i>{" "}
               which means all the works in this whole world will carry fruits by
               taking hard work in to consideration. It is not about what we are
@@ -84,27 +84,50 @@ export class About extends Component {
         <div className="container component">
           <h2 className="my-5 hover-underline-animation con-head">Vision</h2>
           <div className="Director-parent2 ">
-            
-
             <p className="Director-child my-5 Director-text">
-              To give equal opportunities to all part of the socity especially
+             <br/><br/> To give equal opportunities to all part of the socity especially
               the weaker sectin through scholarly teaching,able guidence and
               best learning method to create skilled work force which halps the
               society to sow the seeds for better future.
             </p>
             <div>
               <img
-                src={vision}
+                src="https://imgur.com/tInkoLf.jpg"
                 alt="Director DK sir"
                 className="Director-child Director-img"
               />
               <p className="label">
-                <u>Ms.&nbsp; Riya</u>
+                <u>Mrs.&nbsp;Brajmala Singh </u>
               </p>
               <p className="desig">
-                <u>Ex-student</u>
+                <u>Executive Director</u>
               </p>
             </div>
+          </div>
+        </div>
+        <div className="container component">
+          <h2 className="my-5 hover-underline-animation con-head">Mission</h2>
+          <div className="Director-parent ">
+            <div>
+              <img
+                src="https://imgur.com/Xoi0aNO.jpg"
+                alt="Director DK sir"
+                className="Director-child Director-img"
+              />
+              <p className="label">
+                <u>Mr.&nbsp;Deepak Upadhyay </u>
+              </p>
+              <p className="desig">
+                <u>Manager</u>
+              </p>
+            </div>
+            <p className="Director-child my-5 Director-text"><br/>
+             <br/> True aim of Education not a preparation for exam but to face
+              challenges in their career and to refine nurture and shape of
+              their talent in right dimension.Certainly we all shall be
+              benefitted by it precisely I would like to express my heartily
+              Thank fullness for your immense trust in us.
+            </p>
           </div>
         </div>
       </>

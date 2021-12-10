@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Result.scss";
-import sample from "./files/sample.pdf";
 import Vreg from "./files/Vreg.pdf";
 import VIreg from "./files/VIreg.pdf";
 import VIIreg from "./files/VIIreg.pdf";
@@ -17,9 +16,9 @@ export class Result extends Component {
       <>
         <div className="latest-result">
           <h1>
-            Saksham Result 2021 <span className="badge">NEW</span>
+            Saksham 2022  <span className="badge">Coming Soon</span>
           </h1>
-          <div className="container my-4">
+          {/* <div className="container my-4">
             <h2>Class wise result</h2>
             <div className="list">
               <ul className="Classwise-breakthrough">
@@ -40,10 +39,10 @@ export class Result extends Component {
                 </a>
               </ul>
             </div>
-          </div>
+          </div> */}<br/><br/>
           <div className="Toppers">
             <h1>
-              <u> Past Toppers</u>
+              <u> Saksham 2021 Toppers</u>
             </h1>
             <div className="container parent">
               {Topper.map((post) => {
@@ -98,7 +97,7 @@ export class Result extends Component {
             </li>
           </ul>
           <div className="container my-4">
-            <h1>Class wise Registration Forms</h1>
+            <h1>Class wise Details</h1>
             <div className="list">
               <ul className="Classwise-breakthrough">
                 <a title="Click for class I result " href={Vreg} download>

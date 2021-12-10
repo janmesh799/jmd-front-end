@@ -83,6 +83,46 @@ export class NavBar extends Component {
                     </p>
                   </div>
                 </div>
+                <div className="contact-elem">
+                  <img
+                    src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+                    className="contact-img mx-4 my-5"
+                    alt="map"
+                  />
+                  <div className=" contact-content">
+                    <p className="contact-head">JMD</p>
+                    <p className="contact-detail">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className="contact-detail"
+                        href="https://www.facebook.com/jscgroupofedu"
+                      >
+                        @jscgroupofedu
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="contact-elem">
+                  <img
+                    src="https://imgur.com/7w9TAy5.jpg"
+                    className="contact-img mx-4 my-5"
+                    alt="map"
+                  />
+                  <div className=" contact-content">
+                    <p className="contact-head">JMD</p>
+                    <p className="contact-detail">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className="contact-detail"
+                        href="https://www.instagram.com/jmdsakshamclassess/"
+                      >
+                        @jmdsakshamclassess
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -108,6 +148,10 @@ export class NavBar extends Component {
                     <Link to="/home" className="nav-link">
                       HOME
                     </Link>
+                  </li><li className="nav-item" key="about">
+                    <Link to="/about" className="nav-link">
+                      ABOUT US
+                    </Link>
                   </li>
                   <li className="nav-item" key="achievements">
                     <Link to="/achievements" className="nav-link">
@@ -124,11 +168,7 @@ export class NavBar extends Component {
                       RESULTS & DOWNLOADS
                     </Link>
                   </li>
-                  <li className="nav-item" key="about">
-                    <Link to="/about" className="nav-link">
-                      ABOUT US
-                    </Link>
-                  </li>
+                  
 
                   <li className="nav-item" key="contact">
                     <Link to="/contact" className="nav-link">

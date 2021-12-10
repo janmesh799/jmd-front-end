@@ -82,8 +82,8 @@ export class Contact extends Component {
               src="https://img.icons8.com/color/96/000000/address--v2.png"
               alt="address"
             />
-            Jmd Saksham Classes Arya Nagar Colony, Near Mansarowar, Ramghat Rd,
-            Aligarh, Uttar Pradesh 202001
+           <strong>HEAD OFFICE :</strong> Jmd Saksham Classes Arya Nagar Colony, Near Mansarowar, Ramghat Rd,
+            Aligarh, Uttar Pradesh 202001<br/> <br/><strong>Branch Office: </strong> Ramsnehi Dham,Near Suman Hospital Etah Chungi, GT Road Aligarh-202001
           </p>
         </div>
       </div>

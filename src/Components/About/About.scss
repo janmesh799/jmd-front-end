@@ -6,8 +6,11 @@
   display: flex;
   flex-direction: row;
 }
+.blue{
+  color: rgb(96, 96, 213);
+}
 .Director-img {
-  width: 30em;
+  width: 25em;
   height:auto;
   border-radius: 5rem;
   margin-right: 2rem;
@@ -27,7 +30,7 @@
 // }
 .Director-text {
   font-size: 2em;
-  margin-top: 7em !important;
+  margin-top: 2em !important;
 }
 .con-head{
 font-size: 3.5em;
@@ -39,6 +42,8 @@ font-size: 3.5em;
   border: black 0.2px solid;
   border-radius: 20px;
   margin-top: 3em;
+  width: 100%;
+  height: 50% !important;
 }
 
 .hover-underline-animation {
