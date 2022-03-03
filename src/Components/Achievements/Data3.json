@@ -3,42 +3,49 @@
     "name": "Aman Sharma",
     "degree": "B. Tech",
     "college": "IIT BHU",
-    "path": "https://imgur.com/njhQsdt.jpg"
+    "path": "https://imgur.com/njhQsdt.jpg",
+    "insta": "https://www.instagram.com/_the_amansharma_/"
   },
   {
     "name": "Aman Tiwari",
     "degree": "B. Tech",
     "college": "NIT Trichy",
-    "path": "https://imgur.com/5I2czOJ.jpg"
+    "path": "https://imgur.com/5I2czOJ.jpg",
+    "insta": "https://www.instagram.com/amanpandit2408/"
   },
   {
     "name": "Janmesh Kumar",
     "degree": "B.Tech",
     "college": "IIIT Jabalpur",
-    "path": "https://imgur.com/uLj8kYN.jpg"
+    "path": "https://imgur.com/uLj8kYN.jpg",
+    "insta": "https://www.instagram.com/janmesh_kr_singh/"
   },
   {
     "name": "Madhav Kaushik",
     "degree": "MBBS",
-    "college": "IIT Kharagpur",
-    "path": "https://imgur.com/0UJfqc6.jpg"
+    "college": "",
+    "path": "https://imgur.com/0UJfqc6.jpg",
+    "insta": "https://www.instagram.com/sharmajikaladka__________/"
   },
   {
     "name": "Saurav Sharma",
     "degree": "B.Sc (HM)",
     "college": "IHM Lucknow",
-    "path": "https://imgur.com/n69Cllz.jpg"
+    "path": "https://imgur.com/n69Cllz.jpg",
+    "insta": "https://www.instagram.com/iam._.saurav/"
   },
   {
     "name": "Virat Sharma",
     "degree": "B. Tech",
     "college": "IIT Roorkee",
-    "path": "https://imgur.com/qaf8QwX.jpg"
+    "path": "https://imgur.com/qaf8QwX.jpg",
+    "insta": "https://www.instagram.com/virat_sharma56/"
   },
   {
     "name": "Saurabh Kumar",
     "degree": "B. Tech",
     "college": "IIT Kharagpur",
-    "path": "https://imgur.com/YoXCdrx.jpg"
+    "path": "https://imgur.com/YoXCdrx.jpg",
+    "insta": "https://www.instagram.com/sauravkumar2524/"
   }
 ]
